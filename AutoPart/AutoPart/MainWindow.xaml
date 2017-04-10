@@ -1,0 +1,15 @@
+﻿<Window x:Class="AutoPart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="250" Width="325">
+    <Grid>
+        <Label Content="Enter User Name: " HorizontalAlignment="Left" Margin="35,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.316,-0.115"/>
+        <Label Content="Enter PassWord: " HorizontalAlignment="Left" Margin="35,106,0,0" VerticalAlignment="Top"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="65,160,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="182,160,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox Name="tbUserName" HorizontalAlignment="Left" Height="23" Margin="158,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbPassWord" HorizontalAlignment="Left" Height="23" Margin="158,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="LOGIN" HorizontalAlignment="Left" Margin="123,27,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
